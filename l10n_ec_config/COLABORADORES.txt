@@ -1,2 +1,0 @@
-# Fábrica de Software Libre (desarrollo@libre.com.ec)
-# - Creación del modelo báse de configuración.
