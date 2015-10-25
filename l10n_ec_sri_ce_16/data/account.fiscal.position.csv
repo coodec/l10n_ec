@@ -1,0 +1,4 @@
+"id","name","tipo_vat","tipo_persona"
+"__export__.account_fiscal_position_depf","Del exterior (paraisos fiscales)","Pasaporte","Persona jurídica"
+"__export__.account_fiscal_position_desc","Del exterior (sin convenio de doble tributación)","Pasaporte","Persona Jurídica"
+"__export__.account_fiscal_position_decc","Del exterior (con convenio de doble tributación)","Pasaporte","Persona Jurídica"

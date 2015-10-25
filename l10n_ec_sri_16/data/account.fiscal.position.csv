@@ -1,0 +1,8 @@
+"id","name","tipo_persona","tipo_vat"
+"__export__.account_fiscal_position_pnnc","Persona natural (no obligada a llevar contabilidad)","Persona natural","R.U.C"
+"__export__.account_fiscal_position_pnoc","Persona natural (obligada a llevar contabilidad)","Persona natural","R.U.C"
+"__export__.account_fiscal_position_pncr","Persona natural (contribuyente RISE)","Persona natural","R.U.C"
+"__export__.account_fiscal_position_spj","Sociedad (persona jurídica)","Persona jurídica","R.U.C"
+"__export__.account_fiscal_position_gig","Gobierno e instituciones gubernamentales","Persona jurídica","R.U.C"
+"__export__.account_fiscal_position_ce","Contribuyentes especiales","Persona jurídica","R.U.C"
+"__export__.account_fiscal_position_onsr","Otros no sujetos a retención","Persona jurídica","R.U.C"
