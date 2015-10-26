@@ -15,6 +15,8 @@ class Identificacion(models.Model):
     name = fields.Char('Tipo de identificación')
     code = fields.Char('Código', size='2')
     description = fields.Char('Descripción')
+    ats_compras = fields.Char('Código en compras', size='2')
+    ats_ventas = fields.Char('Código en ventas', size='2')
     
 class Sustento(models.Model):
     name = 'l10n_ec_sri_ats_16.sustento'
