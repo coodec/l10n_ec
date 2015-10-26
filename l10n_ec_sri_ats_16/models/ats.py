@@ -7,7 +7,19 @@ class Persona(models.Model):
     
     name = fields.Char('Tipo de persona')
     code = fields.Char('Código', size='1')
-
+    
+class Comprobante(models.Model):
+    name = 'l10n_ec_sri_ats_16.comprobante'
+    description = 'Comprobantes Autorizados'
+    
+    name = fields.Char('Comprobante')
+    code = fields.Char('Código', size='2')
+    sustento_ids = fields.Many2many('l10n_ec_sri_ats_16.sustento',
+                                    'sustento_comprobante_relacion',
+                                    'comprobante_ids',
+                                    'sustento_ids',
+                                    string="Sustentos aplicables")
+    
 class Identificacion(models.Model):
     name = 'l10n_ec_sri_ats_16.identificacion'
     description = 'Tipo de Identificación'
@@ -25,5 +37,11 @@ class Sustento(models.Model):
     name = fields.Char('Sustento Tributario')
     code = fields.Char('Código', size='2')
     description = fields.Char('Descripción')
-
+    comprobante_ids = fields.Many2many('l10n_ec_sri_ats_16.comprobante',
+                                       'sustento_comprobante_relacion',
+                                       'sustento_ids',
+                                       'comprobante_ids',
+                                       string="Comprobantes",
+                                       help="Seleccione los comprobantes con los cuales es posible utilizar el presente sustento tributario.")
+    
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
