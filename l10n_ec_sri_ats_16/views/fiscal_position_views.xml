@@ -11,8 +11,8 @@
       <field name="persona_id"
              placeholder="Tipo de persona"
              />
-      <field name="documento_id"
-             placeholder="Tipo de documento"
+      <field name="identificacion_id"
+             placeholder="Tipo de identificación"
              />
     </xpath>
   </field>

@@ -8,13 +8,14 @@ class Persona(models.Model):
     name = fields.Char('Tipo de persona')
     code = fields.Char('Código', size='1')
 
-class Documento(models.Model):
-    name = 'l10n_ec_sri_ats_16.documento'
-    description = 'Tipo Documento SRI'
+class Identificacion(models.Model):
+    name = 'l10n_ec_sri_ats_16.identificacion'
+    description = 'Tipo de Identificación'
     
-    name = fields.Char('Tipo de documento')
+    name = fields.Char('Tipo de identificación')
     code = fields.Char('Código', size='2')
-
+    description = fields.Char('Descripción')
+    
 class Sustento(models.Model):
     name = 'l10n_ec_sri_ats_16.sustento'
     description = 'Tipo Sustento SRI'
