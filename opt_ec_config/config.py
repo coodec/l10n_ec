@@ -32,6 +32,6 @@ class ConfiguracionesEcuatorianas(models.TransientModel):
     module_l10n_ec_sri_ats_16 = fields.Boolean(
         'Generar el Anexo Transaccional.',
         help="""Marcar si su empresa está obligada a presentar el Anexo Transaccional.""")
-    module_l10n_ec_tradename = fields.Boolean(
+    module_opc_ec_tradename = fields.Boolean(
         'Registrar el nombre comercial del cliente/proveedor.',
         help="""Agrega el campo 'Nombre comercial'.""")
