@@ -22,15 +22,14 @@ SRI - Anexo transaccional.
 
 """,
     'depends' : ['account',
-                 'l10n_ec_sri_16',
                  ],
     'data' : [
         'views/ats_views.xml',
         'views/partner_views.xml',
         'views/account_tax_views.xml',
         'views/fiscal_position_views.xml',
-        'data/l10n_ec_sri_16.sustento.csv',
-        'data/l10n_ec_sri_16.identificacion.csv',
+        'data/l10n_ec_sri_ats_16.sustento.csv',
+        'data/l10n_ec_sri_ats_16.identificacion.csv',
         ],
     'demo': [],
     'auto_install': False,

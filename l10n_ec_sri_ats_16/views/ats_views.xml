@@ -50,6 +50,7 @@
               <group string="Códigos para usar en la generación del Anexo Transaccional">
                   <field name="ats_compras" />
                   <field name="ats_ventas" />
+                  <field name="id_proveedor" />
               </group>
           </sheet>
       </form>
