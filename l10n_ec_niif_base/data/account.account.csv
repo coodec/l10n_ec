@@ -1,456 +1,252 @@
-"id","reconcile","code","name","internal_type","user_type_id/id"
-"__export__.account_account_1",,1,"ACTIVO",,
-"__export__.account_account_101",,101,"ACTIVO CORRIENTE",,
-"__export__.account_account_10101",,10101,"EFECTIVO Y EQUIVALENTES AL EFECTIVO",,
-"__export__.account_account_10102",,10102,"ACTIVOS FINANCIEROS",,
-"__export__.account_account_1010201",,1010201,"ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS",,
-"__export__.account_account_1010202",,1010202,"ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA",,
-"__export__.account_account_1010203",,1010203,"ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO",,
-"__export__.account_account_1010204",,1010204,"(-) PROVISION POR DETERIORO",,
-"__export__.account_account_1010205",,1010205,"DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES NO RELACIONADOS",,
-"__export__.account_account_101020501",,101020501,"DE ACTIVIDADES ORDINARIAS QUE GENEREN INTERESES",,
-"__export__.account_account_101020502",,101020502,"DE ACTIVIDADES ORDINARIAS QUE NO GENEREN INTERESES",,
-"__export__.account_account_1010206",,1010206,"DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES RELACIONADOS",,
-"__export__.account_account_1010207",,1010207,"OTRAS CUENTAS POR COBRAR RELACIONADAS",,
-"__export__.account_account_1010208",,1010208,"OTRAS CUENTAS POR COBRAR",,
-"__export__.account_account_1010209",,1010209,"(-) PROVISIÓN CUENTAS INCOBRABLES Y DETERIORO",,
-"__export__.account_account_10103",,10103,"INVENTARIOS",,
-"__export__.account_account_1010301",,1010301,"INVENTARIOS DE MATERIA PRIMA",,
-"__export__.account_account_1010302",,1010302,"INVENTARIOS DE PRODUCTOS EN PROCESO",,
-"__export__.account_account_1010303",,1010303,"INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN EL PROCESO DE PRODUCCIÓN",,
-"__export__.account_account_1010304",,1010304,"INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN LA PRESTACIÓN DE SERVICIO",,
-"__export__.account_account_1010305",,1010305,"INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - PRODUCIDO POR LA COMPAÑÍA",,
-"__export__.account_account_1010306",,1010306,"INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - COMPRADO DE TERCEROS",,
-"__export__.account_account_1010307",,1010307,"MERCADERÍAS EN TRÁNSITO",,
-"__export__.account_account_1010308",,1010308,"OBRAS EN CONSTRUCCION",,
-"__export__.account_account_1010309",,1010309,"OBRAS TERMINADAS",,
-"__export__.account_account_1010310",,1010310,"MATERIALES O BIENES PARA LA CONSTRUCCIÓN",,
-"__export__.account_account_1010311",,1010311,"INVENTARIOS REPUESTOS, HERRAMIENTAS Y ACCESORIOS",,
-"__export__.account_account_1010312",,1010312,"OTROS INVENTARIOS",,
-"__export__.account_account_1010313",,1010313,"(-) PROVISIÓN POR VALOR NETO DE REALIZACIÓN Y OTRAS PÉRDIDAS EN EL INVENTARIO",,
-"__export__.account_account_10104",,10104,"SERVICIOS Y OTROS PAGOS ANTICIPADOS",,
-"__export__.account_account_1010401",,1010401,"SEGUROS PAGADOS POR ANTICIPADO",,
-"__export__.account_account_1010402",,1010402,"ARRIENDOS PAGADOS POR ANTICIPADO",,
-"__export__.account_account_1010403",,1010403,"ANTICIPOS A PROVEEDORES",,
-"__export__.account_account_1010404",,1010404,"OTROS ANTICIPOS ENTREGADOS",,
-"__export__.account_account_10105",,10105,"ACTIVOS POR IMPUESTOS CORRIENTES",,
-"__export__.account_account_1010501",,1010501,"CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA (IVA)",,
-"__export__.account_account_1010502",,1010502,"CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA ( I. R.)",,
-"__export__.account_account_1010503",,1010503,"ANTICIPO DE IMPUESTO A LA RENTA",,
-"__export__.account_account_10106",,10106,"ACTIVOS NO CORRIENTES MANTENIDOS PARA LA VENTA Y OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_10107",,10107,"CONSTRUCCIONES EN PROCESO (NIC 11 Y SECC.23 PYMES)",,
-"__export__.account_account_10108",,10108,"OTROS ACTIVOS CORRIENTES",,
-"__export__.account_account_102",,102,"ACTIVO NO CORRIENTE",,
-"__export__.account_account_10201",,10201,"PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_1020101",,1020101,"TERRENOS",,
-"__export__.account_account_1020102",,1020102,"EDIFICIOS",,
-"__export__.account_account_1020103",,1020103,"CONTRUCCIONES EN CURSO",,
-"__export__.account_account_1020104",,1020104,"INSTALACIONES",,
-"__export__.account_account_1020105",,1020105,"MUEBLES Y ENSERES",,
-"__export__.account_account_1020106",,1020106,"MAQUINARIA Y EQUIPO",,
-"__export__.account_account_1020107",,1020107,"NAVES, AERONAVES, BARCAZAS Y SIMILARES",,
-"__export__.account_account_1020108",,1020108,"EQUIPO DE COMPUTACIÓN",,
-"__export__.account_account_1020109",,1020109,"VEHÍCULOS, EQUIPOS DE TRANSPORTE Y EQUIPO CAMINERO MÓVIL",,
-"__export__.account_account_1020110",,1020110,"OTROS PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_1020111",,1020111,"REPUESTOS Y HERRAMIENTAS",,
-"__export__.account_account_1020112",,1020112,"(-) DEPRECIACIÓN ACUMULADA PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_1020113",,1020113,"(-) DETERIORO ACUMULADO DE PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_1020114",,1020114,"ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN",,
-"__export__.account_account_102011401",,102011401,"ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN",,
-"__export__.account_account_102011402",,102011402,"(-) AMORTIZACIÓN ACUMULADA DE ACTIVOS DE EXLORACIÓN Y EXPLOTACIÓN",,
-"__export__.account_account_102011403",,102011403,"(-) DETERIORO ACUMULADO DE ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN",,
-"__export__.account_account_10202",,10202,"PROPIEDADES DE INVERSIÓN",,
-"__export__.account_account_1020201",,1020201,"TERRENOS",,
-"__export__.account_account_1020202",,1020202,"EDIFICIOS",,
-"__export__.account_account_1020203",,1020203,"(-) DEPRECIACION ACUMULADA DE PROPIEDADES DE INVERSIÓN",,
-"__export__.account_account_1020204",,1020204,"(-) DETERIORO ACUMULADO DE PROPIEDADES DE INVERSIÓN",,
-"__export__.account_account_10203",,10203,"ACTIVOS BIOLOGICOS",,
-"__export__.account_account_1020301",,1020301,"ANIMALES VIVOS EN CRECIMIENTO",,
-"__export__.account_account_1020302",,1020302,"ANIMALES VIVOS EN PRODUCCIÓN",,
-"__export__.account_account_1020303",,1020303,"PLANTAS EN CRECIMIENTO",,
-"__export__.account_account_1020304",,1020304,"PLANTAS EN PRODUCCIÓN",,
-"__export__.account_account_1020305",,1020305,"(-) DEPRECIACIÓN ACUMULADA DE ACTIVOS BIOLÓGICOS",,
-"__export__.account_account_1020306",,1020306,"(-) DETERIORO ACUMULADO DE ACTIVOS BIOLÓGICOS",,
-"__export__.account_account_10204",,10204,"ACTIVO INTANGIBLE",,
-"__export__.account_account_1020401",,1020401,"PLUSVALÍAS",,
-"__export__.account_account_1020402",,1020402,"MARCAS, PATENTES, DERECHOS DE LLAVE, CUOTAS PATRIMONIALES Y OTROS SIMILARES",,
-"__export__.account_account_1020403",,1020403,"ACTIVOS DE EXPLORACION Y EXPLOTACION",,
-"__export__.account_account_1020404",,1020404,"(-) AMORTIZACIÓN ACUMULADA DE ACTIVO INTANGIBLE",,
-"__export__.account_account_1020405",,1020405,"(-) DETERIORO ACUMULADO DE ACTIVO INTANGIBLE",,
-"__export__.account_account_1020406",,1020406,"OTROS INTANGIBLES",,
-"__export__.account_account_10205",,10205,"ACTIVOS POR IMPUESTOS DIFERIDOS",,
-"__export__.account_account_1020501",,1020501,"ELIMINADO",,
-"__export__.account_account_10206",,10206,"ACTIVOS FINANCIEROS NO CORRIENTES",,
-"__export__.account_account_1020601",,1020601,"ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO",,
-"__export__.account_account_1020602",,1020602,"(-) PROVISIÓN POR DETERIORO DE ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO",,
-"__export__.account_account_1020603",,1020603,"DOCUMENTOS Y CUENTAS POR COBRAR",,
-"__export__.account_account_1020604",,1020604,"(-) PROVISIÓN CUENTAS INCOBRABLES DE ACTIVOS FINANCIEROS NO CORRIENTES",,
-"__export__.account_account_10207",,10207,"OTROS ACTIVOS NO CORRIENTES",,
-"__export__.account_account_1020701",,1020701,"INVERSIONES SUBSIDIARIAS",,
-"__export__.account_account_1020702",,1020702,"INVERSIONES ASOCIADAS",,
-"__export__.account_account_1020703",,1020703,"INVERSIONES NEGOCIOS CONJUNTOS",,
-"__export__.account_account_1020704",,1020704,"OTRAS INVERSIONES",,
-"__export__.account_account_1020705",,1020705,"(-) PROVISIÓN VALUACIÓN DE INVERSIONES",,
-"__export__.account_account_1020706",,1020706,"OTROS ACTIVOS NO CORRIENTES",,
-"__export__.account_account_2",,2,"PASIVO",,
-"__export__.account_account_201",,201,"PASIVO CORRIENTE",,
-"__export__.account_account_20101",,20101,"PASIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADO",,
-"__export__.account_account_20102",,20102,"PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIEROS",,
-"__export__.account_account_20103",,20103,"CUENTAS Y DOCUMENTOS POR PAGAR",,
-"__export__.account_account_2010301",,2010301,"CUENTAS Y DOCUMENTOS POR PAGAR LOCALES",,
-"__export__.account_account_2010302",,2010302,"CUENTAS Y DOCUMENTOS POR PAGAR DEL EXTERIOR",,
-"__export__.account_account_20104",,20104,"OBLIGACIONES CON INSTITUCIONES FINANCIERAS",,
-"__export__.account_account_2010401",,2010401,"OBLIGACIONES CON INSTITUCIONES FINANCIERAS LOCALES",,
-"__export__.account_account_2010402",,2010402,"OBLIGACIONES CON INSTITUCIONES FINANCIERAS DEL EXTERIOR",,
-"__export__.account_account_20105",,20105,"PROVISIONES",,
-"__export__.account_account_2010501",,2010501,"PROVISIONES LOCALES",,
-"__export__.account_account_2010502",,2010502,"PROVISIONES DEL EXTERIOR",,
-"__export__.account_account_20106",,20106,"PORCIÓN CORRIENTE DE OBLIGACIONES EMITIDAS",,
-"__export__.account_account_20107",,20107,"OTRAS OBLIGACIONES CORRIENTES",,
-"__export__.account_account_2010701",,2010701,"CON LA ADMINISTRACIÓN TRIBUTARIA",,
-"__export__.account_account_2010702",,2010702,"IMPUESTO A LA RENTA POR PAGAR DEL EJERCICIO",,
-"__export__.account_account_2010703",,2010703,"CON EL IESS",,
-"__export__.account_account_2010704",,2010704,"POR BENEFICIOS DE LEY A EMPLEADOS",,
-"__export__.account_account_2010705",,2010705,"PARTICIPACIÓN TRABAJADORES POR PAGAR DEL EJERCICIO",,
-"__export__.account_account_2010706",,2010706,"DIVIDENDOS POR PAGAR",,
-"__export__.account_account_20108",,20108,"CUENTAS POR PAGAR DIVERSAS – RELACIONADAS",,
-"__export__.account_account_20109",,20109,"OTROS PASIVOS FINANCIEROS",,
-"__export__.account_account_20110",,20110,"ANTICIPOS DE CLIENTES",,
-"__export__.account_account_20111",,20111,"PASIVOS DIRECTAMENTE ASOCIADOS CON LOS ACTIVOS NO CORRIENTES Y OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_20112",,20112,"PORCIÓN CORRIENTE DE PROVISIONES POR BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_2011201",,2011201,"JUBILACIÓN PATRONAL",,
-"__export__.account_account_2011202",,2011202,"OTROS BENEFICIOS A LARGO PLAZO PARA LOS EMPLEADOS",,
-"__export__.account_account_20113",,20113,"OTROS PASIVOS CORRIENTES",,
-"__export__.account_account_202",,202,"PASIVO NO CORRIENTE",,
-"__export__.account_account_20201",,20201,"PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIERO",,
-"__export__.account_account_20202",,20202,"CUENTAS Y DOCUMENTOS POR PAGAR",,
-"__export__.account_account_2020201",,2020201,"LOCALES",,
-"__export__.account_account_2020202",,2020202,"DEL EXTERIOR",,
-"__export__.account_account_20203",,20203,"OBLIGACIONES CON INSTITUCIONES FINANCIERAS",,
-"__export__.account_account_2020301",,2020301,"LOCALES",,
-"__export__.account_account_2020302",,2020302,"DEL EXTERIOR",,
-"__export__.account_account_20204",,20204,"CUENTAS POR PAGAR DIVERSAS / RELACIONADAS",,
-"__export__.account_account_2020401",,2020401,"LOCALES",,
-"__export__.account_account_2020402",,2020402,"DEL EXTERIOR",,
-"__export__.account_account_20205",,20205,"OBLIGACIONES EMITIDAS",,
-"__export__.account_account_20206",,20206,"ANTICIPOS DE CLIENTES",,
-"__export__.account_account_20207",,20207,"PROVISIONES POR BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_2020701",,2020701,"JUBILACIÓN PATRONAL",,
-"__export__.account_account_2020702",,2020702,"OTROS BENEFICIOS NO CORRIENTES PARA LOS EMPLEADOS",,
-"__export__.account_account_20208",,20208,"OTRAS PROVISIONES",,
-"__export__.account_account_20209",,20209,"PASIVO DIFERIDO",,
-"__export__.account_account_2020901",,2020901,"INGRESOS DIFERIDOS",,
-"__export__.account_account_2020902",,2020902,"PASIVOS POR IMPUESTOS DIFERIDOS",,
-"__export__.account_account_20210",,20210,"OTROS PASIVOS NO CORRIENTES",,
-"__export__.account_account_3",,3,"PATRIMONIO NETO",,
-"__export__.account_account_30",,30,"PATRIMONIO ATRIBUIBLE A LOS PROPIETARIOS DE LA CONTROLADORA",,
-"__export__.account_account_301",,301,"CAPITAL",,
-"__export__.account_account_30101",,30101,"CAPITAL SUSCRITO o ASIGNADO",,
-"__export__.account_account_30102",,30102,"(-) CAPITAL SUSCRITO NO PAGADO, ACCIONES EN TESORERÍA",,
-"__export__.account_account_302",,302,"APORTES DE SOCIOS O ACCIONISTAS PARA FUTURA CAPITALIZACIÓN",,
-"__export__.account_account_303",,303,"PRIMA POR EMISION PRIMARIA DE ACCIONES",,
-"__export__.account_account_304",,304,"RESERVAS",,
-"__export__.account_account_30401",,30401,"RESERVA LEGAL",,
-"__export__.account_account_30402",,30402,"RESERVAS FACULTATIVA Y ESTATUTARIA",,
-"__export__.account_account_30403",,30403,"ELIMINADO",,
-"__export__.account_account_30404",,30404,"ELIMINADO",,
-"__export__.account_account_305",,305,"OTROS RESULTADOS INTEGRALES",,
-"__export__.account_account_30501",,30501,"SUPERAVIT DE ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA",,
-"__export__.account_account_30502",,30502,"SUPERAVIT POR REVALUACIÓN DE PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_30503",,30503,"SUPERAVIT POR REVALUACION DE ACTIVOS INTANGIBLES",,
-"__export__.account_account_30504",,30504,"OTROS SUPERAVIT POR REVALUACION",,
-"__export__.account_account_306",,306,"RESULTADOS ACUMULADOS",,
-"__export__.account_account_30601",,30601,"GANACIAS ACUMULADAS",,
-"__export__.account_account_30602",,30602,"(-) PÉRDIDAS ACUMULADAS",,
-"__export__.account_account_30603",,30603,"RESULTADOS ACUMULADOS PROVENIENTES DE LA ADOPCIÓN POR PRIMERA VEZ DE LAS NIIF",,
-"__export__.account_account_30604",,30604,"RESERVA DE CAPITAL",,
-"__export__.account_account_30605",,30605,"RESERVA POR DONACIONES",,
-"__export__.account_account_30606",,30606,"RESERVA POR VALUACIÓN",,
-"__export__.account_account_30607",,30607,"SUPERÁVIT POR REVALUACIÓN DE INVERSIONES",,
-"__export__.account_account_307",,307,"RESULTADOS DEL EJERCICIO",,
-"__export__.account_account_30701",,30701,"GANANCIA NETA DEL PERIODO",,
-"__export__.account_account_30702",,30702,"(-) PÉRDIDA NETA DEL PERIODO",,
-"__export__.account_account_31",,31,"PARTICIPACIÓN NO CONTROLADORA",,
-"__export__.account_account_41",,41,"INGRESOS DE ACTIVIDADES ORDINARIAS",,
-"__export__.account_account_4101",,4101,"VENTA DE BIENES",,
-"__export__.account_account_4102",,4102,"PRESTACIÓN DE SERVICIOS",,
-"__export__.account_account_4103",,4103,"CONTRATOS DE CONSTRUCCIÓN",,
-"__export__.account_account_4104",,4104,"SUBVENCIONES DEL GOBIERNO",,
-"__export__.account_account_4105",,4105,"REGALÍAS",,
-"__export__.account_account_4106",,4106,"INTERESES",,
-"__export__.account_account_410601",,410601,"INTERESES GENERADOS POR VENTAS A CRÉDITO",,
-"__export__.account_account_410602",,410602,"OTROS INTERESES GENERADOS",,
-"__export__.account_account_4107",,4107,"DIVIDENDOS",,
-"__export__.account_account_4108",,4108,"GANANCIA POR MEDICIÓN A VALOR RAZONABLE DE ACTIVOS BIOLÓGICOS",,
-"__export__.account_account_4109",,4109,"OTROS INGRESOS DE ACTIVIDADES ORDINARIAS",,
-"__export__.account_account_4110",,4110,"(-) DESCUENTO EN VENTAS",,
-"__export__.account_account_4111",,4111,"(-) DEVOLUCIONES EN VENTAS",,
-"__export__.account_account_4112",,4112,"(-) BONIFICACIÓN EN PRODUCTO",,
-"__export__.account_account_4113",,4113,"(-) OTRAS REBAJAS COMERCIALES",,
-"__export__.account_account_42",,42,"GANANCIA BRUTA --> Subtotal A (41 - 51)",,
-"__export__.account_account_43",,43,"OTROS INGRESOS",,
-"__export__.account_account_4301",,4301,"DIVIDENDOS",,
-"__export__.account_account_4302",,4302,"INTERESES FINANCIEROS",,
-"__export__.account_account_4303",,4303,"GANANCIA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS",,
-"__export__.account_account_4304",,4304,"VALUACIÓN DE INSTRUMENTOS FINANCIEROS A VALOR RAZONABLE CON CAMBIO EN RESULTADOS",,
-"__export__.account_account_4305",,4305,"OTRAS RENTAS",,
-"__export__.account_account_51",,51,"COSTO DE VENTAS Y PRODUCCIÓN",,
-"__export__.account_account_5101",,5101,"MATERIALES UTILIZADOS O PRODUCTOS VENDIDOS",,
-"__export__.account_account_510101",,510101,"(+) INVENTARIO INICIAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA",,
-"__export__.account_account_510102",,510102,"(+) COMPRAS NETAS LOCALES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA",,
-"__export__.account_account_510103",,510103,"(+) IMPORTACIONES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA",,
-"__export__.account_account_510104",,510104,"(-) INVENTARIO FINAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA",,
-"__export__.account_account_510105",,510105,"(+) INVENTARIO INICIAL DE MATERIA PRIMA",,
-"__export__.account_account_510106",,510106,"(+) COMPRAS NETAS LOCALES DE MATERIA PRIMA",,
-"__export__.account_account_510107",,510107,"(+) IMPORTACIONES DE MATERIA PRIMA",,
-"__export__.account_account_510108",,510108,"(-) INVENTARIO FINAL DE MATERIA PRIMA",,
-"__export__.account_account_510109",,510109,"(+) INVENTARIO INICIAL DE PRODUCTOS EN PROCESO",,
-"__export__.account_account_510110",,510110,"(-) INVENTARIO FINAL DE PRODUCTOS EN PROCESO",,
-"__export__.account_account_510111",,510111,"(+) INVENTARIO INICIAL PRODUCTOS TERMINADOS",,
-"__export__.account_account_510112",,510112,"(-) INVENTARIO FINAL DE PRODUCTOS TERMINADOS",,
-"__export__.account_account_5102",,5102,"(+) MANO DE OBRA DIRECTA",,
-"__export__.account_account_510201",,510201,"SUELDOS Y BENEFICIOS SOCIALES",,
-"__export__.account_account_510202",,510202,"GASTO PLANES DE BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_5103",,5103,"(+) MANO DE OBRA INDIRECTA",,
-"__export__.account_account_510301",,510301,"SUELDOS Y BENEFICIOS SOCIALES",,
-"__export__.account_account_510302",,510302,"GASTO PLANES DE BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_5104",,5104,"(+) OTROS COSTOS INDIRECTOS DE FABRICACIÓN",,
-"__export__.account_account_510401",,510401,"DEPRECIACIÓN PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_510402",,510402,"DETERIORO O PÉRDIDAS DE ACTIVOS BIOLÓGICOS",,
-"__export__.account_account_510403",,510403,"DETERIORO DE PROPIEDAD, PLANTA Y EQUIPO",,
-"__export__.account_account_510404",,510404,"EFECTO VALOR NETO DE REALIZACIÓN DE INVENTARIOS",,
-"__export__.account_account_510405",,510405,"GASTO POR GARANTÍAS EN VENTA DE PRODUCTOS O SERVICIOS",,
-"__export__.account_account_510406",,510406,"MANTENIMIENTO Y REPARACIONES",,
-"__export__.account_account_510407",,510407,"SUMINISTROS MATERIALES Y REPUESTOS",,
-"__export__.account_account_510408",,510408,"OTROS COSTOS DE PRODUCCIÓN",,
-"__export__.account_account_52",,52,"GASTOS",,
-"__export__.account_account_5201",,5201,"GASTOS",,
-"__export__.account_account_520101",,520101,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",,
-"__export__.account_account_520102",,520102,"APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva)",,
-"__export__.account_account_520103",,520103,"BENEFICIOS SOCIALES E INDEMNIZACIONES",,
-"__export__.account_account_520104",,520104,"GASTO PLANES DE BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_520105",,520105,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",,
-"__export__.account_account_520106",,520106,"REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS",,
-"__export__.account_account_520107",,520107,"HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES",,
-"__export__.account_account_520108",,520108,"MANTENIMIENTO Y REPARACIONES",,
-"__export__.account_account_520109",,520109,"ARRENDAMIENTO OPERATIVO",,
-"__export__.account_account_520110",,520110,"COMISIONES",,
-"__export__.account_account_520111",,520111,"PROMOCIÓN Y PUBLICIDAD",,
-"__export__.account_account_520112",,520112,"COMBUSTIBLES",,
-"__export__.account_account_520113",,520113,"LUBRICANTES",,
-"__export__.account_account_520114",,520114,"SEGUROS Y REASEGUROS (primas y cesiones)",,
-"__export__.account_account_520115",,520115,"TRANSPORTE",,
-"__export__.account_account_520116",,520116,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",,
-"__export__.account_account_520117",,520117,"GASTOS DE VIAJE",,
-"__export__.account_account_520118",,520118,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",,
-"__export__.account_account_520119",,520119,"NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES",,
-"__export__.account_account_520120",,520120,"ELIMINADO",,
-"__export__.account_account_520121",,520121,"DEPRECIACIONES",,
-"__export__.account_account_52012101",,52012101,"PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_52012102",,52012102,"PROPIEDADES DE INVERSIÓN",,
-"__export__.account_account_520122",,520122,"AMORTIZACIONES",,
-"__export__.account_account_52012201",,52012201,"INTANGIBLES",,
-"__export__.account_account_52012202",,52012202,"OTROS ACTIVOS",,
-"__export__.account_account_520123",,520123,"GASTO DETERIORO",,
-"__export__.account_account_52012301",,52012301,"PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_52012302",,52012302,"ELIMINADO",,
-"__export__.account_account_52012303",,52012303,"ELIMINADO",,
-"__export__.account_account_52012304",,52012304,"ELIMINADO",,
-"__export__.account_account_52012305",,52012305,"ELIMINADO",,
-"__export__.account_account_52012306",,52012306,"OTROS ACTIVOS",,
-"__export__.account_account_520124",,520124,"GASTOS POR CANTIDADES ANORMALES DE UTILIZACIÓN EN EL PROCESO DE PRODUCCIÓN",,
-"__export__.account_account_52012401",,52012401,"MANO DE OBRA",,
-"__export__.account_account_52012402",,52012402,"MATERIALES",,
-"__export__.account_account_52012403",,52012403,"COSTOS DE PRODUCCIÓN",,
-"__export__.account_account_520125",,520125,"GASTO POR REESTRUCTURACIÓN",,
-"__export__.account_account_520126",,520126,"VALOR NETO DE REALIZACIÓN DE INVENTARIOS",,
-"__export__.account_account_520127",,520127,"ELIMINADO",,
-"__export__.account_account_520128",,520128,"OTROS GASTOS",,
-"__export__.account_account_5202",,5202,"GASTOS",,
-"__export__.account_account_520201",,520201,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",,
-"__export__.account_account_520202",,520202,"APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva)",,
-"__export__.account_account_520203",,520203,"BENEFICIOS SOCIALES E INDEMNIZACIONES",,
-"__export__.account_account_520204",,520204,"GASTO PLANES DE BENEFICIOS A EMPLEADOS",,
-"__export__.account_account_520205",,520205,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",,
-"__export__.account_account_520206",,520206,"REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS",,
-"__export__.account_account_520207",,520207,"HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES",,
-"__export__.account_account_520208",,520208,"MANTENIMIENTO Y REPARACIONES",,
-"__export__.account_account_520209",,520209,"ARRENDAMIENTO OPERATIVO",,
-"__export__.account_account_520210",,520210,"COMISIONES",,
-"__export__.account_account_520211",,520211,"ELIMINADO",,
-"__export__.account_account_520212",,520212,"COMBUSTIBLES",,
-"__export__.account_account_520213",,520213,"LUBRICANTES",,
-"__export__.account_account_520214",,520214,"SEGUROS Y REASEGUROS (primas y cesiones)",,
-"__export__.account_account_520215",,520215,"TRANSPORTE",,
-"__export__.account_account_520216",,520216,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",,
-"__export__.account_account_520217",,520217,"GASTOS DE VIAJE",,
-"__export__.account_account_520218",,520218,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",,
-"__export__.account_account_520219",,520219,"NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES",,
-"__export__.account_account_520220",,520220,"IMPUESTOS, CONTRIBUCIONES Y OTROS",,
-"__export__.account_account_520221",,520221,"DEPRECIACIONES",,
-"__export__.account_account_52022101",,52022101,"PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_52022102",,52022102,"PROPIEDADES DE INVERSIÓN",,
-"__export__.account_account_520222",,520222,"AMORTIZACIONES",,
-"__export__.account_account_52022201",,52022201,"INTANGIBLES",,
-"__export__.account_account_52022202",,52022202,"OTROS ACTIVOS",,
-"__export__.account_account_520223",,520223,"GASTO DETERIORO",,
-"__export__.account_account_52022301",,52022301,"PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_52022302",,52022302,"INVENTARIOS",,
-"__export__.account_account_52022303",,52022303,"INSTRUMENTOS FINANCIEROS",,
-"__export__.account_account_52022304",,52022304,"INTANGIBLES",,
-"__export__.account_account_52022305",,52022305,"CUENTAS POR COBRAR",,
-"__export__.account_account_52022306",,52022306,"OTROS ACTIVOS",,
-"__export__.account_account_520224",,520224,"GASTOS POR CANTIDADES ANORMALES DE UTILIZACIÓN EN EL PROCESO DE PRODUCCIÓN",,
-"__export__.account_account_52022401",,52022401,"MANO DE OBRA",,
-"__export__.account_account_52022402",,52022402,"MATERIALES",,
-"__export__.account_account_52022403",,52022403,"COSTOS DE PRODUCCIÓN",,
-"__export__.account_account_520225",,520225,"GASTO POR REESTRUCTURACIÓN",,
-"__export__.account_account_520226",,520226,"VALOR NETO DE REALIZACIÓN DE INVENTARIOS",,
-"__export__.account_account_520227",,520227,"GASTO IMPUESTO A LA RENTA (ACTIVOS Y PASIVOS DIFERIDOS)",,
-"__export__.account_account_520228",,520228,"OTROS GASTOS",,
-"__export__.account_account_5203",,5203,"GASTOS FINANCIEROS",,
-"__export__.account_account_520301",,520301,"INTERESES",,
-"__export__.account_account_520302",,520302,"COMISIONES",,
-"__export__.account_account_520303",,520303,"GASTOS DE FINANCIAMIENTO DE ACTIVOS",,
-"__export__.account_account_520304",,520304,"DIFERENCIA EN CAMBIO",,
-"__export__.account_account_520305",,520305,"OTROS GASTOS FINANCIEROS",,
-"__export__.account_account_5204",,5204,"OTROS GASTOS",,
-"__export__.account_account_520401",,520401,"PERDIDA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS",,
-"__export__.account_account_520402",,520402,"OTROS",,
-"__export__.account_account_60",,60,"GANANCIA (PÉRDIDA) ANTES DE 15% A TRABAJADORES E IMPUESTO A LA RENTA DE OPERACIONES CONTINUADAS --> Subtotal B (A + 43 - 52)",,
-"__export__.account_account_61",,61,"15% PARTICIPACIÓN TRABAJADORES",,
-"__export__.account_account_62",,62,"GANANCIA (PÉRDIDA) ANTES DE IMPUESTOS --> Subtotal C (B - 61)",,
-"__export__.account_account_63",,63,"IMPUESTO A LA RENTA CAUSADO",,
-"__export__.account_account_64",,64,"GANANCIA (PÉRDIDA) DE OPERACIONES CONTINUADAS ANTES DEL IMPUESTO DIFERIDO --> Subtotal D (C - 63)",,
-"__export__.account_account_65",,65,"(-) GASTO POR IMPUESTO DIFERIDO",,
-"__export__.account_account_66",,66,"(+) INGRESO POR IMPUESTO DIFERIDO",,
-"__export__.account_account_67",,67,"GANANCIA (PÉRDIDA) DE OPERACIONES CONTINUADAS",,
-"__export__.account_account_71",,71,"INGRESOS POR OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_72",,72,"GASTOS POR OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_73",,73,"GANANCIA (PÉRDIDA) ANTES DE 15% A TRABAJADORES E IMPUESTO A LA RENTA DE OPERACIONES DISCONTINUADAS --> Subtotal E (71 - 72)",,
-"__export__.account_account_74",,74,"15% PARTICIPACIÓN TRABAJADORES",,
-"__export__.account_account_75",,75,"GANANCIA (PÉRDIDA) ANTES DE IMPUESTOS DE OPERACIONES DISCONTINUADAS --> Subtotal F (E - 74)",,
-"__export__.account_account_76",,76,"IMPUESTO A LA RENTA CAUSADO",,
-"__export__.account_account_77",,77,"GANANCIA (PÉRDIDA) DE OPERACIONES DISCONTINUADAS --> Subtotal G (F - 76)",,
-"__export__.account_account_79",,79,"GANANCIA (PÉRDIDA) NETA DEL PERIODO --> Subtotal H (D + G)",,
-"__export__.account_account_7901",,7901,"PROPIETARIOS DE LA CONTROLADORA",,
-"__export__.account_account_7902",,7902,"PARTICIPACIÓN ATRIBUIBLE A LA NO CONTROLADORA (informativo)",,
-"__export__.account_account_81",,81,"COMPONENTES DEL OTRO RESULTADO INTEGRAL",,
-"__export__.account_account_8101",,8101,"DIFERENCIA DE CAMBIO POR CONVERSIÓN",,
-"__export__.account_account_8102",,8102,"VALUACIÓN DE ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA",,
-"__export__.account_account_8103",,8103,"GANANCIAS POR REVALUACIÓN DE PROPIEDADES, PLANTA Y EQUIPO",,
-"__export__.account_account_8104",,8104,"GANANCIAS (PÉRDIDAS) ACTUARIALES POR PLANES DE BENEFICIOS DEFINIDOS",,
-"__export__.account_account_8105",,8105,"REVERSIÓN DEL DETERIORO (PÉRDIDA POR DETERIORO) DE UN ACTIVO REVALUADO",,
-"__export__.account_account_8106",,8106,"PARTICIPACIÓN DE OTRO RESULTADO INTEGRAL DE ASOCIADAS",,
-"__export__.account_account_8107",,8107,"IMPUESTO SOBRE LAS GANACIAS RELATIVO A OTRO RESULTADO INTEGRAL",,
-"__export__.account_account_8108",,8108,"OTROS (DETALLAR EN NOTAS)",,
-"__export__.account_account_82",,82,"RESULTADO INTEGRAL TOTAL DEL AÑO --> Subtotal I (H + 81)",,
-"__export__.account_account_8201",,8201,"PROPIETARIOS DE LA CONTROLADORA",,
-"__export__.account_account_8202",,8202,"PARTICIPACIÓN NO CONTROLADORA (informativo)",,
-"__export__.account_account_90",,90,"GANANCIA POR ACCIÓN (SOLO EMPRESAS QUE COTIZAN EN BOLSA)",,
-"__export__.account_account_9001",,9001,"GANANCIA POR ACCIÓN BÁSICA",,
-"__export__.account_account_900101",,900101,"GANANCIA POR ACCIÓN BÁSICA EN OPERACIONES CONTINUADAS",,
-"__export__.account_account_900102",,900102,"GANANCIA POR ACCIÓN BÁSICA EN OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_9002",,9002,"GANANCIA POR ACCIÓN DILUÍDA",,
-"__export__.account_account_900201",,900201,"GANANCIA POR ACCIÓN DILUÍDA EN OPERACIONES CONTINUADAS",,
-"__export__.account_account_900202",,900202,"GANANCIA POR ACCIÓN DILUÍDA EN OPERACIONES DISCONTINUADAS",,
-"__export__.account_account_91",,91,"UTILIDAD A REINVERTIR (INFORMATIVO)",,
-"__export__.account_account_95",,95,"INCREMENTO NETO (DISMINUCIÓN) EN EL EFECTIVO Y EQUIVALENTES AL EFECTIVO, ANTES DEL EFECTO DE LOS CAMBIOS EN LA TASA DE CAMBIO",,
-"__export__.account_account_9501",,9501,"FLUJOS DE EFECTIVO PROCEDENTES DE (UTILIZADOS EN) ACTIVIDADES DE OPERACIÓN",,
-"__export__.account_account_950101",,950101,"CLASES DE COBROS POR ACTIVIDADES DE OPERACIÓN",,
-"__export__.account_account_95010101",,95010101,"Cobros procedentes de las ventas de bienes y prestación de servicios",,
-"__export__.account_account_95010102",,95010102,"Cobros procedentes de regalías, cuotas, comisiones y otros ingresos de actividades ordinarias",,
-"__export__.account_account_95010103",,95010103,"Cobros procedentes de contratos mantenidos con propósitos de intermediación o para negociar",,
-"__export__.account_account_95010104",,95010104,"Cobros procedentes de primas y prestaciones, anualidades y otros beneficios de pólizas suscritas",,
-"__export__.account_account_95010105",,95010105,"Otros cobros por actividades de operación",,
-"__export__.account_account_950102",,950102,"CLASES DE PAGOS POR ACTIVIDADES DE OPERACIÓN",,
-"__export__.account_account_95010201",,95010201,"Pagos a proveedores por el suministro de bienes y servicios",,
-"__export__.account_account_95010202",,95010202,"Pagos procedentes de contratos mantenidos para intermediación o para negociar",,
-"__export__.account_account_95010203",,95010203,"Pagos a y por cuenta de los empleados",,
-"__export__.account_account_95010204",,95010204,"Pagos por primas y prestaciones, anualidades y otras obligaciones derivadas de las pólizas suscritas",,
-"__export__.account_account_95010205",,95010205,"Otros pagos por actividades de operación",,
-"__export__.account_account_950103",,950103,"Dividendos pagados",,
-"__export__.account_account_950104",,950104,"Dividendos recibidos",,
-"__export__.account_account_950105",,950105,"Intereses pagados",,
-"__export__.account_account_950106",,950106,"Intereses recibidos",,
-"__export__.account_account_950107",,950107,"Impuestos a las ganancias pagados",,
-"__export__.account_account_950108",,950108,"Otras entradas (salidas) de efectivo",,
-"__export__.account_account_9502",,9502,"FLUJOS DE EFECTIVOS PROCEDENTES DE (UTILIZADOS EN) ACTIVIDADES DE INVERSIÓN",,
-"__export__.account_account_950201",,950201,"Efectivo procedentes de la venta de acciones en subsidiarias u otros negocios",,
-"__export__.account_account_950202",,950202,"Efectivo utilizado para adquirir acciones en subsidiarias u otros negocios para tener el control",,
-"__export__.account_account_950203",,950203,"Efectivo utilizado en la compra de participaciones no controladoras",,
-"__export__.account_account_950204",,950204,"Otros cobros por la venta de acciones o instrumentos de deuda de otras entidades",,
-"__export__.account_account_950205",,950205,"Otros pagos para adquirir acciones o instrumentos de deuda de otras entidades",,
-"__export__.account_account_950206",,950206,"Otros cobros por la venta de participaciones en negocios conjuntos",,
-"__export__.account_account_950207",,950207,"Otros pagos para adquirir participaciones en negocios conjuntos",,
-"__export__.account_account_950208",,950208,"Importes procedentes por la venta de propiedades, planta y equipo",,
-"__export__.account_account_950209",,950209,"Adquisiciones de propiedades, planta y equipo",,
-"__export__.account_account_950210",,950210,"Importes procedentes de ventas de activos intangibles",,
-"__export__.account_account_950211",,950211,"Compras de activos intangibles",,
-"__export__.account_account_950212",,950212,"Importes procedentes de otros activos a largo plazo",,
-"__export__.account_account_950213",,950213,"Compras de otros activos a largo plazo",,
-"__export__.account_account_950214",,950214,"Importes procedentes de subvenciones del gobierno",,
-"__export__.account_account_950215",,950215,"Anticipos de efectivo efectuados a terceros",,
-"__export__.account_account_950216",,950216,"Cobros procedentes del reembolso de anticipos y préstamos concedidos a terceros",,
-"__export__.account_account_950217",,950217,"Pagos derivados de contratos de futuro, a término, de opciones y de permuta financiera",,
-"__export__.account_account_950218",,950218,"Cobros procedentes de contratos de futuro, a término, de opciones y de permuta financiera",,
-"__export__.account_account_950219",,950219,"Dividendos recibidos",,
-"__export__.account_account_950220",,950220,"Intereses recibidos",,
-"__export__.account_account_950221",,950221,"Otras entradas (salidas) de efectivo",,
-"__export__.account_account_9503",,9503,"FLUJOS DE EFECTIVO PROCEDENTES DE (UTILIZADOS EN) ACTIVIDADES DE FINANCIACIÓN",,
-"__export__.account_account_950301",,950301,"Aporte en efectivo por aumento de capital",,
-"__export__.account_account_950302",,950302,"Financiamiento por emisión de títulos valores",,
-"__export__.account_account_950303",,950303,"Pagos por adquirir o rescatar las acciones de la entidad",,
-"__export__.account_account_950304",,950304,"Financiación por préstamos a largo plazo",,
-"__export__.account_account_950305",,950305,"Pagos de préstamos",,
-"__export__.account_account_950306",,950306,"Pagos de pasivos por arrendamientos financieros",,
-"__export__.account_account_950307",,950307,"Importes procedentes de subvenciones del gobierno",,
-"__export__.account_account_950308",,950308,"Dividendos pagados",,
-"__export__.account_account_950309",,950309,"Intereses recibidos",,
-"__export__.account_account_950310",,950310,"Otras entradas (salidas) de efectivo",,
-"__export__.account_account_9504",,9504,"EFECTOS DE LA VARIACIÓN EN LA TASA DE CAMBIO SOBRE EL EFECTIVO Y EQUIVALENTES AL EFECTIVO",,
-"__export__.account_account_950401",,950401,"Efectos de la variación en la tasa de cambio sobre el efectivo y equivalentes de efectivo",,
-"__export__.account_account_9505",,9505,"INCREMENTO (DISMINUCIÓN) NETO DE EFECTIVO Y EQUIVALENTES AL EFECTIVO",,
-"__export__.account_account_9506",,9506,"EFECTIVO Y EQUIVALENTES AL EFECTIVO AL PRINCIPIO DEL PERIODO",,
-"__export__.account_account_9507",,9507,"EFECTIVO Y EQUIVALENTES AL EFECTIVO AL FINAL DEL PERIODO",,
-"__export__.account_account_96",,96,"GANANCIA (PÉRDIDA) ANTES DE 15% A TRABAJADORES E IMPUESTO A LA RENTA",,
-"__export__.account_account_97",,97,"AJUSTE POR PARTIDAS DISTINTAS AL EFECTIVO",,
-"__export__.account_account_9701",,9701,"Ajustes por gasto de depreciación y amortización",,
-"__export__.account_account_9702",,9702,"Ajustes por gastos por deterioro (reversiones por deterioro) reconocidas en los resultados del periodo",,
-"__export__.account_account_9703",,9703,"Pérdida (ganancia) de moneda extranjera no realizada",,
-"__export__.account_account_9704",,9704,"Pérdidas en cambio de moneda extranjera",,
-"__export__.account_account_9705",,9705,"Ajustes por gastos en provisiones",,
-"__export__.account_account_9706",,9706,"Ajuste por participaciones no controladoras",,
-"__export__.account_account_9707",,9707,"Ajuste por pagos basados en acciones",,
-"__export__.account_account_9708",,9708,"Ajustes por ganancias (pérdidas) en valor razonable",,
-"__export__.account_account_9709",,9709,"Ajustes por gasto por impuesto a la renta",,
-"__export__.account_account_9710",,9710,"Ajustes por gasto por participación trabajadores",,
-"__export__.account_account_9711",,9711,"Otros ajustes por partidas distintas al efectivo",,
-"__export__.account_account_98",,98,"CAMBIOS EN ACTIVOS Y PASIVOS",,
-"__export__.account_account_9801",,9801,"(Incremento) disminución en cuentas por cobrar clientes",,
-"__export__.account_account_9802",,9802,"(Incremento) disminución en otras cuentas por cobrar",,
-"__export__.account_account_9803",,9803,"(Incremento) disminución en anticipos de proveedores",,
-"__export__.account_account_9804",,9804,"(Incremento) disminución en inventarios",,
-"__export__.account_account_9805",,9805,"(Incremento) disminución en otros activos",,
-"__export__.account_account_9806",,9806,"Incremento (disminución) en cuentas por pagar comerciales",,
-"__export__.account_account_9807",,9807,"Incremento (disminución) en otras cuentas por pagar",,
-"__export__.account_account_9808",,9808,"Incremento (disminución) en beneficios empleados",,
-"__export__.account_account_9809",,9809,"Incremento (disminución) en anticipos de clientes",,
-"__export__.account_account_9810",,9810,"Incremento (disminución) en otros pasivos",,
-"__export__.account_account_9820",,9820,"FLUJOS DE EFECTIVO PROCEDENTES DE (UTILIZADOS EN) ACTIVIDADES DE OPERACIÓN",,
-"__export__.account_account_99",,99,"SALDO AL FINAL DEL PERÍODO",,
-"__export__.account_account_9901",,9901,"SALDO REEXPRESADO DEL PERIODO INMEDIATO ANTERIOR",,
-"__export__.account_account_990101",,990101,"SALDO DEL PERÍODO INMEDIATO ANTERIOR",,
-"__export__.account_account_990102",,990102,"CAMBIOS EN POLÍTICAS CONTABLES",,
-"__export__.account_account_990103",,990103,"CORRECCIÓN DE ERRORES",,
-"__export__.account_account_9902",,9902,"CAMBIOS DEL AÑO EN EL PATRIMONIO",,
-"__export__.account_account_990201",,990201,"Aumento (disminución) de capital social",,
-"__export__.account_account_990202",,990202,"Aportes para futuras capitalizaciones",,
-"__export__.account_account_990203",,990203,"Prima por emisión primaria de acciones",,
-"__export__.account_account_990204",,990204,"Dividendos",,
-"__export__.account_account_990205",,990205,"Transferencia de Resultados a otras cuentas patrimoniales",,
-"__export__.account_account_990206",,990206,"Realización de la Reserva por Valuación de Activos Financieros Disponibles para la venta",,
-"__export__.account_account_990207",,990207,"Realización de la Reserva por Valuación de Propiedades, planta y equipo",,
-"__export__.account_account_990208",,990208,"Realización de la Reserva por Valuación de Activos Intangibles",,
-"__export__.account_account_990209",,990209,"Otros cambios (detallar)",,
-"__export__.account_account_990210",,990210,"Resultado Integral Total del Año (Ganancia o pérdida del ejercicio)",,
+"id","reconcile","code","name","user_type_id/id"
+"__export__.account_account_10101","True","10101","EFECTIVO Y EQUIVALENTES AL EFECTIVO ","account.data_account_type_liquidity"
+"__export__.account_account_1010201","False","1010201","ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS ","account.data_account_type_current_assets"
+"__export__.account_account_1010202","False","1010202","ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA ","account.data_account_type_current_assets"
+"__export__.account_account_1010203","False","1010203","ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO ","account.data_account_type_current_assets"
+"__export__.account_account_1010204","False","1010204","(-) PROVISION POR DETERIORO ","account.data_account_type_current_assets"
+"__export__.account_account_101020501","True","101020501","DE ACTIVIDADES ORDINARIAS QUE GENEREN INTERESES ","account.data_account_type_receivable"
+"__export__.account_account_101020502","True","101020502","DE ACTIVIDADES ORDINARIAS QUE NO GENEREN INTERESES ","account.data_account_type_receivable"
+"__export__.account_account_1010206","True","1010206","DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES RELACIONADOS ","account.data_account_type_receivable"
+"__export__.account_account_1010207","True","1010207","OTRAS CUENTAS POR COBRAR RELACIONADAS ","account.data_account_type_receivable"
+"__export__.account_account_1010208","True","1010208","OTRAS CUENTAS POR COBRAR ","account.data_account_type_receivable"
+"__export__.account_account_1010209","False","1010209","(-) PROVISIÓN CUENTAS INCOBRABLES Y DETERIORO ","account.data_account_type_current_assets"
+"__export__.account_account_1010301","False","1010301","INVENTARIOS DE MATERIA PRIMA ","account.data_account_type_current_assets"
+"__export__.account_account_1010302","False","1010302","INVENTARIOS DE PRODUCTOS EN PROCESO ","account.data_account_type_current_assets"
+"__export__.account_account_1010303","False","1010303","INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN EL PROCESO DE PRODUCCIÓN ","account.data_account_type_current_assets"
+"__export__.account_account_1010304","False","1010304","INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN LA PRESTACIÓN DE SERVICIO ","account.data_account_type_current_assets"
+"__export__.account_account_1010305","False","1010305","INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - PRODUCIDO POR LA COMPAÑÍA ","account.data_account_type_current_assets"
+"__export__.account_account_1010306","False","1010306","INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - COMPRADO DE TERCEROS ","account.data_account_type_current_assets"
+"__export__.account_account_1010307","False","1010307","MERCADERÍAS EN TRÁNSITO ","account.data_account_type_current_assets"
+"__export__.account_account_1010308","False","1010308","OBRAS EN CONSTRUCCION ","account.data_account_type_current_assets"
+"__export__.account_account_1010309","False","1010309","OBRAS TERMINADAS ","account.data_account_type_current_assets"
+"__export__.account_account_1010310","False","1010310","MATERIALES O BIENES PARA LA CONSTRUCCIÓN ","account.data_account_type_current_assets"
+"__export__.account_account_1010311","False","1010311","INVENTARIOS REPUESTOS, HERRAMIENTAS Y ACCESORIOS ","account.data_account_type_current_assets"
+"__export__.account_account_1010312","False","1010312","OTROS INVENTARIOS ","account.data_account_type_current_assets"
+"__export__.account_account_1010313","False","1010313","(-) PROVISIÓN POR VALOR NETO DE REALIZACIÓN Y OTRAS PÉRDIDAS EN EL INVENTARIO ","account.data_account_type_current_assets"
+"__export__.account_account_1010401","True","1010401","SEGUROS PAGADOS POR ANTICIPADO ","account.data_account_type_prepayments"
+"__export__.account_account_1010402","True","1010402","ARRIENDOS PAGADOS POR ANTICIPADO ","account.data_account_type_prepayments"
+"__export__.account_account_1010403","True","1010403","ANTICIPOS A PROVEEDORES ","account.data_account_type_prepayments"
+"__export__.account_account_1010404","True","1010404","OTROS ANTICIPOS ENTREGADOS ","account.data_account_type_prepayments"
+"__export__.account_account_1010501","False","1010501","CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA (IVA) ","account.data_account_type_non_current_assets"
+"__export__.account_account_1010502","False","1010502","CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA ( I. R.) ","account.data_account_type_non_current_assets"
+"__export__.account_account_1010503","False","1010503","ANTICIPO DE IMPUESTO A LA RENTA ","account.data_account_type_non_current_assets"
+"__export__.account_account_10106","False","10106","ACTIVOS NO CORRIENTES MANTENIDOS PARA LA VENTA Y OPERACIONES DISCONTINUADAS ","account.data_account_type_non_current_assets"
+"__export__.account_account_10107","False","10107","CONSTRUCCIONES EN PROCESO (NIC 11 Y SECC.23 PYMES) ","account.data_account_type_fixed_assets"
+"__export__.account_account_10108","False","10108","OTROS ACTIVOS CORRIENTES ","account.data_account_type_non_current_assets"
+"__export__.account_account_1020101","False","1020101","TERRENOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020102","False","1020102","EDIFICIOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020103","False","1020103","CONTRUCCIONES EN CURSO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020104","False","1020104","INSTALACIONES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020105","False","1020105","MUEBLES Y ENSERES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020106","False","1020106","MAQUINARIA Y EQUIPO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020107","False","1020107","NAVES, AERONAVES, BARCAZAS Y SIMILARES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020108","False","1020108","EQUIPO DE COMPUTACIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020109","False","1020109","VEHÍCULOS, EQUIPOS DE TRANSPORTE Y EQUIPO CAMINERO MÓVIL ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020110","False","1020110","OTROS PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020111","False","1020111","REPUESTOS Y HERRAMIENTAS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020112","False","1020112","(-) DEPRECIACIÓN ACUMULADA PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020113","False","1020113","(-) DETERIORO  ACUMULADO DE PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_fixed_assets"
+"__export__.account_account_102011401","False","102011401","ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_102011402","False","102011402","(-) AMORTIZACIÓN ACUMULADA DE ACTIVOS DE EXLORACIÓN Y EXPLOTACIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_102011403","False","102011403","(-) DETERIORO ACUMULADO DE ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020201","False","1020201","TERRENOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020202","False","1020202","EDIFICIOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020203","False","1020203","(-) DEPRECIACION ACUMULADA DE PROPIEDADES DE INVERSIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020204","False","1020204","(-) DETERIORO ACUMULADO DE PROPIEDADES DE INVERSIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020301","False","1020301","ANIMALES VIVOS EN CRECIMIENTO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020302","False","1020302","ANIMALES VIVOS EN PRODUCCIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020303","False","1020303","PLANTAS EN CRECIMIENTO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020304","False","1020304","PLANTAS EN PRODUCCIÓN ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020305","False","1020305","(-) DEPRECIACIÓN ACUMULADA DE ACTIVOS BIOLÓGICOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020306","False","1020306","(-) DETERIORO ACUMULADO DE ACTIVOS BIOLÓGICOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020401","False","1020401","PLUSVALÍAS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020402","False","1020402","MARCAS, PATENTES, DERECHOS DE LLAVE, CUOTAS PATRIMONIALES  Y OTROS SIMILARES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020403","False","1020403","ACTIVOS DE EXPLORACION Y EXPLOTACION ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020404","False","1020404","(-) AMORTIZACIÓN ACUMULADA DE ACTIVO INTANGIBLE ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020405","False","1020405","(-) DETERIORO ACUMULADO DE ACTIVO INTANGIBLE ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020406","False","1020406","OTROS INTANGIBLES ","account.data_account_type_fixed_assets"
+"__export__.account_account_10205","False","10205","ACTIVOS POR IMPUESTOS DIFERIDOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020601","False","1020601","ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020602","False","1020602","(-) PROVISIÓN POR DETERIORO DE ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020603","False","1020603","DOCUMENTOS Y CUENTAS POR COBRAR ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020604","False","1020604","(-) PROVISIÓN CUENTAS INCOBRABLES DE ACTIVOS FINANCIEROS NO CORRIENTES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020701","False","1020701","INVERSIONES SUBSIDIARIAS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020702","False","1020702","INVERSIONES ASOCIADAS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020703","False","1020703","INVERSIONES NEGOCIOS CONJUNTOS ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020704","False","1020704","OTRAS INVERSIONES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020705","False","1020705","(-) PROVISIÓN VALUACIÓN DE INVERSIONES ","account.data_account_type_fixed_assets"
+"__export__.account_account_1020706","False","1020706","OTROS ACTIVOS NO CORRIENTES ","account.data_account_type_fixed_assets"
+"__export__.account_account_20101","False","20101","PASIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADO ","account.data_account_type_current_liabilities"
+"__export__.account_account_20102","False","20102","PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIEROS ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010301","True","2010301","LOCALES ","account.data_account_type_payable"
+"__export__.account_account_2010302","True","2010302","DEL EXTERIOR ","account.data_account_type_payable"
+"__export__.account_account_2010401","False","2010401","LOCALES ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010402","False","2010402","DEL EXTERIOR ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010501","False","2010501","LOCALES ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010502","False","2010502","DEL EXTERIOR ","account.data_account_type_current_liabilities"
+"__export__.account_account_20106","False","20106","PORCIÓN CORRIENTE DE OBLIGACIONES EMITIDAS ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010701","False","2010701","CON LA ADMINISTRACIÓN TRIBUTARIA ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010702","False","2010702","IMPUESTO A LA RENTA POR PAGAR DEL EJERCICIO ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010703","False","2010703","CON EL IESS ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010704","False","2010704","POR BENEFICIOS DE LEY A EMPLEADOS ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010705","False","2010705","PARTICIPACIÓN TRABAJADORES POR PAGAR DEL EJERCICIO ","account.data_account_type_current_liabilities"
+"__export__.account_account_2010706","False","2010706","DIVIDENDOS POR PAGAR ","account.data_account_type_current_liabilities"
+"__export__.account_account_20108","False","20108","CUENTAS POR PAGAR DIVERSAS – RELACIONADAS ","account.data_account_type_current_liabilities"
+"__export__.account_account_20109","False","20109","OTROS PASIVOS FINANCIEROS ","account.data_account_type_current_liabilities"
+"__export__.account_account_20110","False","20110","ANTICIPOS DE CLIENTES ","account.data_account_type_current_liabilities"
+"__export__.account_account_20111","False","20111","PASIVOS DIRECTAMENTE ASOCIADOS CON LOS ACTIVOS NO CORRIENTES Y OPERACIONES DISCONTINUADAS ","account.data_account_type_current_liabilities"
+"__export__.account_account_2011201","False","2011201","JUBILACIÓN PATRONAL ","account.data_account_type_current_liabilities"
+"__export__.account_account_2011202","False","2011202","OTROS BENEFICIOS A LARGO PLAZO PARA LOS EMPLEADOS ","account.data_account_type_current_liabilities"
+"__export__.account_account_20113","False","20113","OTROS PASIVOS CORRIENTES ","account.data_account_type_current_liabilities"
+"__export__.account_account_20201","False","20201","PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIERO ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020201","False","2020201","LOCALES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020202","False","2020202","DEL EXTERIOR ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020301","False","2020301","LOCALES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020302","False","2020302","DEL EXTERIOR ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020401","False","2020401","LOCALES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020402","False","2020402","DEL EXTERIOR ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_20205","False","20205","OBLIGACIONES EMITIDAS ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_20206","False","20206","ANTICIPOS DE CLIENTES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020701","False","2020701","JUBILACIÓN PATRONAL ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020702","False","2020702","OTROS BENEFICIOS NO CORRIENTES PARA LOS EMPLEADOS ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_20208","False","20208","OTRAS PROVISIONES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020901","False","2020901","INGRESOS DIFERIDOS ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_2020902","False","2020902","PASIVOS POR IMPUESTOS DIFERIDOS ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_20210","False","20210","OTROS PASIVOS NO CORRIENTES ","account.data_account_type_non_current_liabilities"
+"__export__.account_account_30101","False","30101","CAPITAL SUSCRITO o ASIGNADO ","account.data_account_type_equity"
+"__export__.account_account_30102","False","30102","(-) CAPITAL SUSCRITO NO PAGADO, ACCIONES EN TESORERÍA ","account.data_account_type_equity"
+"__export__.account_account_302","False","302","APORTES DE SOCIOS O ACCIONISTAS PARA FUTURA CAPITALIZACIÓN ","account.data_account_type_equity"
+"__export__.account_account_303","False","303","PRIMA POR EMISION PRIMARIA DE ACCIONES ","account.data_account_type_equity"
+"__export__.account_account_30401","False","30401","RESERVA LEGAL ","account.data_account_type_equity"
+"__export__.account_account_30402","False","30402","RESERVAS FACULTATIVA Y ESTATUTARIA ","account.data_account_type_equity"
+"__export__.account_account_30501","False","30501","SUPERAVIT DE ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA ","account.data_account_type_equity"
+"__export__.account_account_30502","False","30502","SUPERAVIT POR REVALUACIÓN DE PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_equity"
+"__export__.account_account_30503","False","30503","SUPERAVIT POR REVALUACION DE ACTIVOS INTANGIBLES ","account.data_account_type_equity"
+"__export__.account_account_30504","False","30504","OTROS SUPERAVIT POR REVALUACION ","account.data_account_type_equity"
+"__export__.account_account_30601","False","30601","GANACIAS ACUMULADAS ","account.data_account_type_equity"
+"__export__.account_account_30602","False","30602","(-) PÉRDIDAS ACUMULADAS ","account.data_account_type_equity"
+"__export__.account_account_30603","False","30603","RESULTADOS ACUMULADOS PROVENIENTES DE LA ADOPCIÓN POR PRIMERA VEZ DE LAS NIIF ","account.data_account_type_equity"
+"__export__.account_account_30604","False","30604","RESERVA DE CAPITAL ","account.data_account_type_equity"
+"__export__.account_account_30605","False","30605","RESERVA POR DONACIONES ","account.data_account_type_equity"
+"__export__.account_account_30606","False","30606","RESERVA POR VALUACIÓN ","account.data_account_type_equity"
+"__export__.account_account_30607","False","30607","SUPERÁVIT POR REVALUACIÓN DE INVERSIONES ","account.data_account_type_equity"
+"__export__.account_account_30701","False","30701","GANANCIA NETA DEL PERIODO ","account.data_account_type_equity"
+"__export__.account_account_30702","False","30702","(-) PÉRDIDA NETA DEL PERIODO ","account.data_account_type_equity"
+"__export__.account_account_31","False","31","PARTICIPACIÓN NO CONTROLADORA ","account.data_account_type_equity"
+"__export__.account_account_4101","False","4101","VENTA DE BIENES ","account.data_account_type_revenue"
+"__export__.account_account_4102","False","4102","PRESTACIÓN DE SERVICIOS ","account.data_account_type_revenue"
+"__export__.account_account_4103","False","4103","CONTRATOS DE CONSTRUCCIÓN ","account.data_account_type_revenue"
+"__export__.account_account_4104","False","4104","SUBVENCIONES DEL GOBIERNO ","account.data_account_type_revenue"
+"__export__.account_account_4105","False","4105","REGALÍAS ","account.data_account_type_revenue"
+"__export__.account_account_410601","False","410601","INTERESES GENERADOS POR VENTAS A CRÉDITO ","account.data_account_type_revenue"
+"__export__.account_account_410602","False","410602","OTROS INTERESES GENERADOS ","account.data_account_type_revenue"
+"__export__.account_account_4107","False","4107","DIVIDENDOS ","account.data_account_type_revenue"
+"__export__.account_account_4108","False","4108","GANANCIA POR MEDICIÓN A VALOR RAZONABLE DE ACTIVOS BIOLÓGICOS ","account.data_account_type_revenue"
+"__export__.account_account_4109","False","4109","OTROS INGRESOS DE ACTIVIDADES ORDINARIAS ","account.data_account_type_revenue"
+"__export__.account_account_4110","False","4110","(-) DESCUENTO EN VENTAS ","account.data_account_type_revenue"
+"__export__.account_account_4111","False","4111","(-) DEVOLUCIONES EN VENTAS ","account.data_account_type_revenue"
+"__export__.account_account_4112","False","4112","(-) BONIFICACIÓN EN PRODUCTO ","account.data_account_type_revenue"
+"__export__.account_account_4113","False","4113","(-) OTRAS REBAJAS COMERCIALES ","account.data_account_type_revenue"
+"__export__.account_account_4301","False","4301","DIVIDENDOS ","account.data_account_type_other_income"
+"__export__.account_account_4302","False","4302","INTERESES FINANCIEROS ","account.data_account_type_other_income"
+"__export__.account_account_4303","False","4303","GANANCIA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS ","account.data_account_type_other_income"
+"__export__.account_account_4304","False","4304","VALUACIÓN DE INSTRUMENTOS FINANCIEROS A VALOR RAZONABLE CON CAMBIO EN RESULTADOS ","account.data_account_type_other_income"
+"__export__.account_account_4305","False","4305","OTRAS RENTAS ","account.data_account_type_other_income"
+"__export__.account_account_510101","False","510101","(+) INVENTARIO INICIAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA ","account.data_account_type_direct_costs"
+"__export__.account_account_510102","False","510102","(+) COMPRAS NETAS LOCALES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA ","account.data_account_type_direct_costs"
+"__export__.account_account_510103","False","510103","(+) IMPORTACIONES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA ","account.data_account_type_direct_costs"
+"__export__.account_account_510104","False","510104","(-) INVENTARIO FINAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA ","account.data_account_type_direct_costs"
+"__export__.account_account_510105","False","510105","(+) INVENTARIO INICIAL DE MATERIA PRIMA ","account.data_account_type_direct_costs"
+"__export__.account_account_510106","False","510106","(+) COMPRAS NETAS LOCALES DE MATERIA PRIMA ","account.data_account_type_direct_costs"
+"__export__.account_account_510107","False","510107","(+) IMPORTACIONES DE MATERIA PRIMA ","account.data_account_type_direct_costs"
+"__export__.account_account_510108","False","510108","(-) INVENTARIO FINAL DE MATERIA PRIMA ","account.data_account_type_direct_costs"
+"__export__.account_account_510109","False","510109","(+) INVENTARIO INICIAL DE PRODUCTOS EN PROCESO ","account.data_account_type_direct_costs"
+"__export__.account_account_510110","False","510110","(-) INVENTARIO FINAL DE PRODUCTOS EN PROCESO ","account.data_account_type_direct_costs"
+"__export__.account_account_510111","False","510111","(+) INVENTARIO INICIAL PRODUCTOS TERMINADOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510112","False","510112","(-) INVENTARIO FINAL DE PRODUCTOS TERMINADOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510201","False","510201","SUELDOS Y BENEFICIOS SOCIALES ","account.data_account_type_direct_costs"
+"__export__.account_account_510202","False","510202","GASTO PLANES DE BENEFICIOS A EMPLEADOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510301","False","510301","SUELDOS Y BENEFICIOS SOCIALES ","account.data_account_type_direct_costs"
+"__export__.account_account_510302","False","510302","GASTO PLANES DE BENEFICIOS A EMPLEADOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510401","False","510401","DEPRECIACIÓN PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_direct_costs"
+"__export__.account_account_510402","False","510402","DETERIORO O PÉRDIDAS DE ACTIVOS BIOLÓGICOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510403","False","510403","DETERIORO DE PROPIEDAD, PLANTA Y EQUIPO ","account.data_account_type_direct_costs"
+"__export__.account_account_510404","False","510404","EFECTO VALOR NETO DE REALIZACIÓN DE INVENTARIOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510405","False","510405","GASTO POR GARANTÍAS EN VENTA DE PRODUCTOS O SERVICIOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510406","False","510406","MANTENIMIENTO Y REPARACIONES ","account.data_account_type_direct_costs"
+"__export__.account_account_510407","False","510407","SUMINISTROS MATERIALES Y REPUESTOS ","account.data_account_type_direct_costs"
+"__export__.account_account_510408","False","510408","OTROS COSTOS DE PRODUCCIÓN ","account.data_account_type_direct_costs"
+"__export__.account_account_520101","False","520101","SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520102","False","520102","APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva) ","account.data_account_type_expenses"
+"__export__.account_account_520103","False","520103","BENEFICIOS SOCIALES E INDEMNIZACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520104","False","520104","GASTO PLANES DE BENEFICIOS A EMPLEADOS ","account.data_account_type_expenses"
+"__export__.account_account_520105","False","520105","HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES ","account.data_account_type_expenses"
+"__export__.account_account_520106","False","520106","REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS ","account.data_account_type_expenses"
+"__export__.account_account_520107","False","520107","HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES ","account.data_account_type_expenses"
+"__export__.account_account_520108","False","520108","MANTENIMIENTO Y REPARACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520109","False","520109","ARRENDAMIENTO OPERATIVO ","account.data_account_type_expenses"
+"__export__.account_account_520110","False","520110","COMISIONES ","account.data_account_type_expenses"
+"__export__.account_account_520111","False","520111","PROMOCIÓN Y PUBLICIDAD ","account.data_account_type_expenses"
+"__export__.account_account_520112","False","520112","COMBUSTIBLES ","account.data_account_type_expenses"
+"__export__.account_account_520113","False","520113","LUBRICANTES ","account.data_account_type_expenses"
+"__export__.account_account_520114","False","520114","SEGUROS Y REASEGUROS (primas y cesiones) ","account.data_account_type_expenses"
+"__export__.account_account_520115","False","520115","TRANSPORTE ","account.data_account_type_expenses"
+"__export__.account_account_520116","False","520116","GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes) ","account.data_account_type_expenses"
+"__export__.account_account_520117","False","520117","GASTOS DE VIAJE ","account.data_account_type_expenses"
+"__export__.account_account_520118","False","520118","AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520119","False","520119","NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES ","account.data_account_type_expenses"
+"__export__.account_account_520120","False","520120","ELIMINADO ","account.data_account_type_expenses"
+"__export__.account_account_52012101","False","52012101","PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_depreciation"
+"__export__.account_account_52012102","False","52012102","PROPIEDADES DE INVERSIÓN ","account.data_account_type_depreciation"
+"__export__.account_account_52012201","False","52012201","INTANGIBLES ","account.data_account_type_depreciation"
+"__export__.account_account_52012202","False","52012202","OTROS ACTIVOS ","account.data_account_type_depreciation"
+"__export__.account_account_52012301","False","52012301","PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_depreciation"
+"__export__.account_account_52012401","False","52012401","MANO DE OBRA ","account.data_account_type_expenses"
+"__export__.account_account_52012402","False","52012402","MATERIALES ","account.data_account_type_expenses"
+"__export__.account_account_52012403","False","52012403","COSTOS DE PRODUCCIÓN ","account.data_account_type_expenses"
+"__export__.account_account_520125","False","520125","GASTO POR REESTRUCTURACIÓN ","account.data_account_type_expenses"
+"__export__.account_account_520126","False","520126","VALOR NETO DE REALIZACIÓN DE INVENTARIOS ","account.data_account_type_expenses"
+"__export__.account_account_520128","False","520128","OTROS GASTOS ","account.data_account_type_expenses"
+"__export__.account_account_520201","False","520201","SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520202","False","520202","APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva) ","account.data_account_type_expenses"
+"__export__.account_account_520203","False","520203","BENEFICIOS SOCIALES E INDEMNIZACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520204","False","520204","GASTO PLANES DE BENEFICIOS A EMPLEADOS ","account.data_account_type_expenses"
+"__export__.account_account_520205","False","520205","HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES ","account.data_account_type_expenses"
+"__export__.account_account_520206","False","520206","REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS ","account.data_account_type_expenses"
+"__export__.account_account_520207","False","520207","HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES ","account.data_account_type_expenses"
+"__export__.account_account_520208","False","520208","MANTENIMIENTO Y REPARACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520209","False","520209","ARRENDAMIENTO OPERATIVO ","account.data_account_type_expenses"
+"__export__.account_account_520210","False","520210","COMISIONES ","account.data_account_type_expenses"
+"__export__.account_account_520212","False","520212","COMBUSTIBLES ","account.data_account_type_expenses"
+"__export__.account_account_520213","False","520213","LUBRICANTES ","account.data_account_type_expenses"
+"__export__.account_account_520214","False","520214","SEGUROS Y REASEGUROS (primas y cesiones) ","account.data_account_type_expenses"
+"__export__.account_account_520215","False","520215","TRANSPORTE ","account.data_account_type_expenses"
+"__export__.account_account_520216","False","520216","GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes) ","account.data_account_type_expenses"
+"__export__.account_account_520217","False","520217","GASTOS DE VIAJE ","account.data_account_type_expenses"
+"__export__.account_account_520218","False","520218","AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES ","account.data_account_type_expenses"
+"__export__.account_account_520219","False","520219","NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES ","account.data_account_type_expenses"
+"__export__.account_account_520220","False","520220","IMPUESTOS, CONTRIBUCIONES Y OTROS ","account.data_account_type_expenses"
+"__export__.account_account_52022101","False","52022101","PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_depreciation"
+"__export__.account_account_52022102","False","52022102","PROPIEDADES DE INVERSIÓN ","account.data_account_type_depreciation"
+"__export__.account_account_52022201","False","52022201","INTANGIBLES ","account.data_account_type_expenses"
+"__export__.account_account_52022202","False","52022202","OTROS ACTIVOS ","account.data_account_type_expenses"
+"__export__.account_account_52022301","False","52022301","PROPIEDADES, PLANTA Y EQUIPO ","account.data_account_type_depreciation"
+"__export__.account_account_52022302","False","52022302","INVENTARIOS ","account.data_account_type_depreciation"
+"__export__.account_account_52022303","False","52022303","INSTRUMENTOS FINANCIEROS ","account.data_account_type_depreciation"
+"__export__.account_account_52022304","False","52022304","INTANGIBLES ","account.data_account_type_depreciation"
+"__export__.account_account_52022305","False","52022305","CUENTAS POR COBRAR ","account.data_account_type_depreciation"
+"__export__.account_account_52022306","False","52022306","OTROS ACTIVOS ","account.data_account_type_depreciation"
+"__export__.account_account_52022401","False","52022401","MANO DE OBRA ","account.data_account_type_expenses"
+"__export__.account_account_52022402","False","52022402","MATERIALES ","account.data_account_type_expenses"
+"__export__.account_account_52022403","False","52022403","COSTOS DE PRODUCCIÓN ","account.data_account_type_expenses"
+"__export__.account_account_520225","False","520225","GASTO POR REESTRUCTURACIÓN ","account.data_account_type_expenses"
+"__export__.account_account_520226","False","520226","VALOR NETO DE REALIZACIÓN DE INVENTARIOS ","account.data_account_type_expenses"
+"__export__.account_account_520227","False","520227","GASTO IMPUESTO A LA RENTA (ACTIVOS Y PASIVOS DIFERIDOS) ","account.data_account_type_expenses"
+"__export__.account_account_520228","False","520228","OTROS GASTOS ","account.data_account_type_expenses"
+"__export__.account_account_520301","False","520301","INTERESES ","account.data_account_type_expenses"
+"__export__.account_account_520302","False","520302","COMISIONES ","account.data_account_type_expenses"
+"__export__.account_account_520303","False","520303","GASTOS DE FINANCIAMIENTO DE ACTIVOS ","account.data_account_type_expenses"
+"__export__.account_account_520304","False","520304","DIFERENCIA EN CAMBIO ","account.data_account_type_expenses"
+"__export__.account_account_520305","False","520305","OTROS GASTOS FINANCIEROS ","account.data_account_type_expenses"
+"__export__.account_account_520401","False","520401","PERDIDA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS ","account.data_account_type_expenses"
+"__export__.account_account_520402","False","520402","OTROS ","account.data_account_type_expenses"
