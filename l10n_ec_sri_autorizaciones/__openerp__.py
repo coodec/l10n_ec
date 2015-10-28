@@ -21,6 +21,7 @@ SRI - Autorizaciones.
                  ],
     'data' : [
         'views/autorizacion_views.xml',
+        'views/lineaautorizacion_views.xml',
         ],
     'demo': [],
     'auto_install': False,
