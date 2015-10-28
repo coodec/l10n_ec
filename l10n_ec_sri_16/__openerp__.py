@@ -33,7 +33,7 @@ Usar una plantilla solo es necesario cuando desea usar el sistema en un entorno 
         "data/account.tax.group.csv",
         "data/account.fiscal.position.csv",
         "data/103/account.tax.csv",
-        "data/104/account.tax.csv",
+#        "data/104/account.tax.csv",
         ],
     'demo': [],
     'auto_install': False,
