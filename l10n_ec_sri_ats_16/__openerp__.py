@@ -22,6 +22,7 @@ SRI - Anexo transaccional.
 
 """,
     'depends' : ['account',
+                 'l10n_ec_sri_autorizaciones',
                  ],
     'data' : [
         'views/ats_views.xml',
