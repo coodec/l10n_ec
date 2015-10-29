@@ -25,7 +25,10 @@ SRI - Anexo transaccional.
                  'l10n_ec_sri_autorizaciones',
                  ],
     'data' : [
-        'views/ats_views.xml',
+        'views/comprobante_views.xml',
+        'views/persona_views.xml',
+        'views/identificacion_views.xml',
+        'views/sustento_views.xml',
         'views/partner_views.xml',
         'views/account_tax_views.xml',
         'views/fiscal_position_views.xml',
