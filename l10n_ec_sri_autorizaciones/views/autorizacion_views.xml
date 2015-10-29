@@ -8,13 +8,19 @@
   <field name="arch" type="xml">
       <form string="Autorizaciones.">
           <sheet>
-              <field name="autorizacion_propia" />
-              <field name="partner_id" />
-              <field name="numero" />
-              <field name="establecimiento" />
-              <field name="punto_impresion" />
-              <field name="valido_desde" />
-              <field name="valido_hasta" />
+              <group>
+                  <group>
+                      <field name="autorizacion_propia" invisible="1"/>
+                      <field name="partner_id" />
+                      <field name="establecimiento" />
+                      <field name="valido_desde" />
+                  </group>
+                  <group>
+                      <field name="numero" />
+                      <field name="punto_impresion" />
+                      <field name="valido_hasta" />
+                  </group>
+              </group>
               <group string="Documentos autorizados">
                   <field name="lineaautorizacion_ids" nolabel="1"/>
               </group>

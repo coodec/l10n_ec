@@ -20,6 +20,7 @@ SRI - Autorizaciones.
                  'l10n_ec_sri_ats_16',
                  ],
     'data' : [
+        'views/invoice_views.xml',
         'views/autorizacion_views.xml',
         'views/lineaautorizacion_views.xml',
         ],
