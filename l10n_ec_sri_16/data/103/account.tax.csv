@@ -1,4 +1,4 @@
-"id","name","description","type_tax_use","amount_type","amount","sequence","children_tax_ids:id","tag_ids:id"
+"id","description","name","type_tax_use","amount_type","amount","sequence","children_tax_ids:id","tag_ids:id"
 "__export__.account_tax_303","Honorarios profesionales y demás pagos por servicios relacionados con el título profesional",303,"purchase","percent",-1,1000,,
 "__export__.account_tax_304","Servicios predomina el intelecto no relacionados con el título profesional",304,"purchase","percent",-8,1000,,
 "__export__.account_tax_304A","Comisiones y demás pagos por servicios predomina intelecto no relacionados con el título profesional","304A","purchase","percent",-8,1000,,
