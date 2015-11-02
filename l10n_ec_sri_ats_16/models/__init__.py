@@ -7,3 +7,4 @@ import persona
 import partner
 import fiscal_position
 import account_tax
+import invoice

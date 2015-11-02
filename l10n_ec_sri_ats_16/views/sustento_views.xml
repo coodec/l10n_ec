@@ -8,10 +8,12 @@
   <field name="arch" type="xml">
       <form string="Sustento Tributario.">
           <sheet>
-              <field name="name" />
-              <field name="code" />
-              <field name="description" />
-              <field name="active" />
+              <group>
+                <field name="name" />
+                <field name="code" />
+                <field name="description" />
+                <field name="active" />
+              </group>
               <group string="Comprobantes aplicables">
                   <field name="comprobante_ids" nolabel="1"/>
               </group>

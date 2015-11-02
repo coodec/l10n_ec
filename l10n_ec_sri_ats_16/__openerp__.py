@@ -22,7 +22,6 @@ SRI - Anexo transaccional.
 
 """,
     'depends' : ['account',
-                 'l10n_ec_sri_autorizaciones',
                  ],
     'data' : [
         'views/comprobante_views.xml',
@@ -31,7 +30,9 @@ SRI - Anexo transaccional.
         'views/sustento_views.xml',
         'views/partner_views.xml',
         'views/account_tax_views.xml',
+        'views/invoice_views.xml',
         'views/fiscal_position_views.xml',
+        'data/l10n_ec_sri_ats_16.comprobante.csv',
         'data/l10n_ec_sri_ats_16.sustento.csv',
         'data/l10n_ec_sri_ats_16.identificacion.csv',
         ],
