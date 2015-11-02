@@ -5,11 +5,9 @@ class Autorizacion(models.Model):
     _name = 'l10n_ec_sri_autorizaciones.autorizacion'
     _description = "Autorizaciones"
     
-    name = fields.Char(string="Autorización", compute="_compute_name", store=False)
-    autorizacion_propia = fields.Boolean('¿Autorización propia?')
-    partner_id = fields.Many2one('res.partner',
-                                 string='Cliente/Proveedor',
-                                 required=True)
+    name = fields.Char(string="Autorización",
+                       compute="_compute_name",
+                       store=False)
     numero = fields.Char('Nro. de autorización',
                             required=True)
     establecimiento = fields.Char('Establecimiento',
@@ -31,8 +29,15 @@ class Autorizacion(models.Model):
                                             inverse_name='autorizacion_id',
                                             ondelete='restrict',
                                             string="Facturas")
-    
+
     @api.one
     @api.depends('punto_impresion', 'establecimiento', 'numero')
     def _compute_name(self):
         self.name = str(self.establecimiento) + "-" + str(self.punto_impresion) + "-" + str(self.numero)
+
+class DeTercero(models.Model):
+    _name = 'l10n_ec_sri_autorizaciones.detercero'
+    _inherit = 'l10n_ec_sri_autorizaciones.autorizacion'
+    _description = "Autorizaciones de terceros"
+    
+    partner_id = fields.Many2one('res.partner', string='Cliente/Proveedor', required=True, change_default=True, readonly=False)
