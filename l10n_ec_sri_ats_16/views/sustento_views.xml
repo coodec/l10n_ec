@@ -12,7 +12,6 @@
                 <field name="name" />
                 <field name="code" />
                 <field name="description" />
-                <field name="active" />
               </group>
               <group string="Comprobantes aplicables">
                   <field name="comprobante_ids" nolabel="1"/>

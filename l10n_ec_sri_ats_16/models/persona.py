@@ -6,4 +6,4 @@ class Persona(models.Model):
 
     name = fields.Char('Tipo de persona')
     code = fields.Char('Código', size=1)
-    active = fields.Boolean('Activo')
+    idprov = fields.Char('Tipo de identificación del Proveedor', size=2)

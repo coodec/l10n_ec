@@ -8,6 +8,5 @@ class Identificacion(models.Model):
     code = fields.Char('Código', size=2)
     active = fields.Boolean('Activo')
     description = fields.Char('Descripción')
-    ats_compras = fields.Char('Código en compras', size=2)
-    ats_ventas = fields.Char('Código en ventas', size=2)
-    id_proveedor = fields.Char('Código en proveedor', size=2)
+    tpidprov = fields.Char('Código en compras', size=2)
+    tpidcliente = fields.Char('Código en ventas', size=2)

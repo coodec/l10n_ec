@@ -12,12 +12,10 @@
                   <field name="name" />
                   <field name="code" />
                   <field name="description" />
-                  <field name="active" />
               </group>
               <group string="Códigos para usar en la generación del Anexo Transaccional">
-                  <field name="ats_compras" />
-                  <field name="ats_ventas" />
-                  <field name="id_proveedor" />
+                  <field name="tpidprov" />
+                  <field name="tpidcliente" />
               </group>
           </sheet>
       </form>
