@@ -27,7 +27,9 @@ Si desea una plantilla debe editar el código acorde a los modelos estandar, pue
 
 Usar una plantilla solo es necesario cuando desea usar el sistema en un entorno multi-compañías, caso contrario, este módulo le será útil tal y como ha sido desarrollado.
 """,
-    'depends' : ["account"],
+    'depends' : ['account',
+                 'l10n_ec_sri_ats_16',
+                 ],
     'data' : [
         "data/account.account.tag.csv",
         "data/account.tax.group.csv",
