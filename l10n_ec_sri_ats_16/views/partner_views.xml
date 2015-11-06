@@ -16,12 +16,8 @@
     </xpath>
     <xpath expr="//field[@name='parent_id']" position="before">
         <group>
-            <field name="identificacion_id"/>
             <field name="vat"
                    placeholder="Nro. de identificación"/>
-        </group>
-        <group>
-            <field name="persona_id"/>
         </group>
     </xpath>
   </field>
