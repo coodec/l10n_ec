@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from openerp import models, fields
 
-class Partner(models.Model):
+class Payment(models.Model):
     _inherit = 'account.payment'
     
     cobro_md = fields.Selection([
