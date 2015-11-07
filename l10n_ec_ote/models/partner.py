@@ -2,7 +2,7 @@
 
 from openerp import models, fields
 
-class res_partner(models.Model):
+class Partner(models.Model):
     _inherit = 'res.partner'
 
     country_id = fields.Many2one(default="base.ec")
