@@ -8,7 +8,8 @@
   <field name="inherit_id" ref="account.invoice_supplier_form"/>
   <field name="arch" type="xml">
     <xpath expr="//field[@name='partner_id']" position="after">
-      <field name="detercero_id"/>
+      <field name="detercero_id"
+             domain="[('partner_id', '=', partner_id), ('valido_hasta', '&gt;=', current_date)]"/>
       <field name="numero_comprobante"
              attrs="{'invisible':[('detercero_id', '==', False)]}"/>
     </xpath>
@@ -21,7 +22,8 @@
   <field name="inherit_id" ref="account.invoice_form"/>
   <field name="arch" type="xml">
     <xpath expr="sheet/group/group/field[@name='partner_id']" position="after">
-      <field name="autorizacion_id"/>
+      <field name="autorizacion_id"
+             domain="[('valido_hasta', '&gt;=', current_date)]"/>
       <field name="numero_comprobante"
              attrs="{'invisible':[('autorizacion_id', '==', False)]}"/>
     </xpath>

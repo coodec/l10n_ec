@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 from openerp import models, fields, api
+from datetime import datetime
 
 class AccountInvoice(models.Model):
     _inherit = ['account.invoice']
 
     autorizacion_id = fields.Many2one('l10n_ec_sri_autorizaciones.autorizacion',
+                                      domain=[('vigente', '=', True)],
                                       string='Autorización')
     detercero_id = fields.Many2one('l10n_ec_sri_autorizaciones.detercero',
-                                      string='Autorización')
+                                   domain=[('vigente', '=', True)],
+                                   string='Autorización')
     numero_comprobante = fields.Char(string='Número', size=18)
     
     @api.onchange('autorizacion_id')
