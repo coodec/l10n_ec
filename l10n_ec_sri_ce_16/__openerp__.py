@@ -19,6 +19,7 @@ IMPORTANTE: Este módulo no funciona como una plantilla normal de Odoo, registra
                  'l10n_ec_sri_16',
                  ],
     'data' : [
+        'views/fiscal_position_views.xls',
         'data/account.fiscal.position.csv',
         ],
     'auto_install': False,
