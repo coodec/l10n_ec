@@ -40,4 +40,7 @@ class DeTercero(models.Model):
     _inherit = 'l10n_ec_sri_autorizaciones.autorizacion'
     _description = "Autorizaciones de terceros"
     
-    partner_id = fields.Many2one('res.partner', string='Cliente/Proveedor', required=True, change_default=True, readonly=False)
+    partner_id = fields.Many2one('res.partner',
+                                 string='Cliente/Proveedor',
+                                 readonly=False,
+                                 default=lambda self: self.env['account.invoice'].search([], limit=1).partner_id)

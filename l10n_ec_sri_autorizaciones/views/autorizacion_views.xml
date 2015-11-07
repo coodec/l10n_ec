@@ -37,13 +37,14 @@
           <sheet>
               <group>
                   <group>
-                      <field name="numero" />
+                      <field name="partner_id" readonly="1" />
+                      <field name="numero" default_focus="1"/>
                       <field name="establecimiento" />
-                      <field name="valido_desde" />
-                  </group>
-                  <group>
-                      <field name="partner_id" />
                       <field name="punto_impresion" />
+                   </group>
+                  <group>
+                      <field name="invoice_ids" invisible="1"/>
+                      <field name="valido_desde" />
                       <field name="valido_hasta" />
                   </group>
               </group>
