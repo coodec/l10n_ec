@@ -3,7 +3,7 @@
   <data>
 
 <record id="view_partner_property_form_ec" model="ir.ui.view">
-  <field name="name">view.partner.property.form.ec</field>
+  <field name="name">res.partner.property.form.ec</field>
   <field name="model">res.partner</field>
   <field name="inherit_id" ref="account.view_partner_property_form"/>
   <field name="arch" type="xml">

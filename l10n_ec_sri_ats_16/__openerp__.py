@@ -35,7 +35,7 @@ SRI - Anexo transaccional.
         'views/account_tax_views.xml',
         'views/invoice_views.xml',
         'views/fiscal_position_views.xml',
-        'data/l10n_ec_sri_ats_16.tpopago.csv',
+        'data/l10n_ec_sri_ats_16.tipopago.csv',
         'data/l10n_ec_sri_ats_16.formapago.csv',
         'data/l10n_ec_sri_ats_16.comprobante.csv',
         'data/l10n_ec_sri_ats_16.sustento.csv',
