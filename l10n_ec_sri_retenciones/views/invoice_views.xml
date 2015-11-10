@@ -7,11 +7,15 @@
   <field name="model">account.invoice</field>
   <field name="inherit_id" ref="account.invoice_supplier_form"/>
   <field name="arch" type="xml">
-    <xpath expr="//field[@name='comment']" position="before">
-      <field name="ret_autorizacion_id"
-             domain="[('valido_hasta', '&gt;=', current_date)]"/>
-      <field name="numero_retencion"
-             attrs="{'invisible':[('ret_autorizacion_id', '==', False)]}"/>
+    <xpath expr="//notebook/page" position="after">
+        <page string="Retención" >
+            <group>
+                <field name="ret_autorizacion_id"
+                       domain="[('valido_hasta', '&gt;=', current_date)]"/>
+                <field name="numero_retencion"
+                       attrs="{'invisible':[('ret_autorizacion_id', '==', False)]}"/>
+            </group>
+        </page>
     </xpath>
   </field>
 </record>
